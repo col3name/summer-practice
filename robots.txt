@@ -5,4 +5,4 @@ Disallow: /admin/
 Disallow: /component/
 Disallow: /models/
 Disallow: /template
-Sitemap: http://www.example.com/sitemap.xml
+Sitemap: /sitemap.xml
