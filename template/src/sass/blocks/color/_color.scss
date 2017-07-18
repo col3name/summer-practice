@@ -1,0 +1,41 @@
+// include
+@import '../../settings/settings';
+.bg-alert
+{
+background: $alert;
+}
+
+.bg-warning
+{
+background: $warning;
+}
+
+.bg-success
+{
+background: $success;
+}
+
+.bg-shopping
+{
+background: $shopping;
+}
+
+.c-alert
+{
+color: $alert;
+}
+
+.c-warning
+{
+color: $warning;
+}
+
+.c-success
+{
+color: $success;
+}
+
+.c-shopping
+{
+color: $shopping;
+}

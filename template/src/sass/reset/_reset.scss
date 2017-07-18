@@ -1,0 +1,47 @@
+ul,
+li,
+ol
+{
+    list-style-type: none;
+}
+
+*,
+ul,
+li,
+ol
+{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+p
+{
+    margin: 0;
+    padding: 0;
+}
+
+button,
+a
+{
+    cursor: pointer;
+    outline: 0;
+
+    &:hover,
+    &:focus,
+    &:active
+    {
+        outline: 0;
+        cursor: pointer;
+    }
+}
+
+blockquote
+{
+    border-left: 0;
+}
+
+fieldset
+{
+    border: 0;
+}

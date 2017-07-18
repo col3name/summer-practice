@@ -1,0 +1,29 @@
+// include
+@import '../../utils/utils',
+        '../../settings/settings';
+
+
+.welcome
+{
+    padding: 70px 0;
+
+    &__blockquote
+    {
+        @include font($regular, 15px, 17px, $font_main);
+
+        &_align-center
+        {
+            text-align: center;
+        }
+    }
+
+    &__image
+    {
+        font-size: 23px;
+
+        &_border_circle
+        {
+            border-radius: 50%;
+        }
+    }
+}

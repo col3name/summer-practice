@@ -1,0 +1,62 @@
+// 1. Section
+//* ---------
+@import
+    'page/page',
+    'header/header',
+    'main/main',
+    'footer/footer',
+    'welcome/welcome',
+    'winning/winning',
+    'promo_rolf-baoumann/promo_rolf-baoumann',
+    'today-menu/today-menu',
+    'latest-blog/latest-blog',
+    'team/team',
+    'feedback/feedback',
+    'blog/blog',
+    'about-restaurant/about-restaurant',
+    'contact/contact',
+    'get-touch/get-touch',
+    'post/post';
+
+// 2. Typography
+//* ------------
+@import
+    'title/title',
+    'subtitle/subtitle',
+    'link/link',
+    'hamgurger-menu/hamgurger-menu';
+
+
+// 3. Other blocks
+//* -------------
+@import
+    'list/list',
+    'user/user',
+    'off-canvas/off-canvas',
+    'logo/logo',
+    'service-menu/service-menu',
+    'icon/icon',
+    'btn-link/btn-link',
+    'menu-bar/menu-bar',
+    'about-company/about-company',
+    'burg/burg',
+    'thumb/thumb',
+    'thumbnail/thumbnail',
+    'slide/slide',
+    'sign/sign',
+    'dt/dt',
+    'b-inmormation-menu/b-inmormation-menu',
+    'b-information/b-information',
+    'full/full',
+    'circle/circle',
+    'scroll-to-top/scroll-to-top',
+    'center/center',
+    'color/color',
+    'orbit-bullets/orbit-bullets',
+    'menu/menu',
+    'company-description/company-description',
+    'form/form';
+
+//  4. Home page style
+//* ------------------
+@import '../home_style';

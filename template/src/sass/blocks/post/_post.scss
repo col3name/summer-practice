@@ -1,0 +1,12 @@
+.post
+{
+    padding: 10px 5px;
+}
+
+@media print, screen and (min-width: 40em)
+{
+    .post
+    {
+        padding: 60px 0 90px;
+    }
+}

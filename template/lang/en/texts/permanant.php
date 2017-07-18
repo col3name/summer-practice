@@ -1,0 +1,1 @@
+Permanent chef "Claude Monet". In 1999, he was invited to lead the kitchen has not yet opened restaurant.

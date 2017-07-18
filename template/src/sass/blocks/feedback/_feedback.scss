@@ -1,0 +1,22 @@
+// include
+//--------
+@import '../../utils/utils',
+        '../../settings/settings';
+
+
+.feedback__photo-client-center
+{
+    margin: 0 auto;
+}
+
+.client-feedback
+{
+    padding: 90px 0;
+
+    &__orbit-bullets-wrapper
+    {
+        width: $orbit-bullet-wrapper-width;
+        height: 5px;
+        margin: auto;
+    }
+}

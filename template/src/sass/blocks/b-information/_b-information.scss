@@ -1,0 +1,141 @@
+// include
+@import '../../utils/utils',
+        '../../settings/settings';
+
+@media (min-width: 640px)
+{
+    .b-information
+    {
+        margin-bottom: 20px;
+    }
+}
+
+.post_b-information
+{
+    margin-bottom: 80px;
+}
+
+.b-information
+{
+    &__post
+    {
+        margin-bottom: 50px;
+    }
+
+    &_masonry
+    {
+        background-color: $white;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 0 2px 10px 0.5px rgba($black, 0.1);
+        transition: $transition;
+
+        &:hover {
+            box-shadow: 0 10px 20px 0 rgba($black, 0.1);
+            transform: translateY(-15px);
+        }
+    }
+    &__image_align_center
+    {
+        display: block;
+        margin: 0 auto;
+    }
+
+    &__columns
+    {
+        padding: 24px;
+        transition: $transition;
+
+        &:hover
+        {
+            box-shadow: 0 2px 8px 0 rgba($black, 0.11);
+        }
+    }
+
+    &_align_left
+    {
+        float: left;
+    }
+
+    &__visible
+    {
+        width: 70px;
+
+        &_align-left
+        {
+            float: left;
+            width: 100%;
+            max-width: 70px;
+            margin: 5px 20px 0 0;
+        }
+    }
+
+    &__content
+    {
+        margin-top: 20px;
+        padding: 12px 0;
+
+        &_align_left
+        {
+            float: left;
+            width: calc(100% - 91px);
+        }
+    }
+
+    &__header
+    {
+        @include font($regular, 14px, 20px, $font_secondary);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: $transition;
+        color: #333743;
+
+        &:hover
+        {
+            color: $decorative;
+        }
+
+        &:after
+        {
+            content: '';
+            display: block;
+            width: 100%;
+            background: $gray;
+        }
+    }
+
+    &__data
+    {
+        .fa
+        {
+            color: $decorative;
+        }
+    }
+    &__price
+    {
+        float: right;
+    }
+
+    &__description
+    {
+        @include font($regular, 15px, 19px, $font_main);
+        font-size: rem-calc(17px);
+        color: rgba($black, 0.6);
+        margin-top: 8px;
+        margin-bottom: 8px;
+        letter-spacing: 0.5px;
+    }
+
+    &__comments
+    {
+        margin-left: 10px;
+    }
+
+    .fa
+    {
+        &:hover
+        {
+            color: $alert;
+        }
+    }
+}

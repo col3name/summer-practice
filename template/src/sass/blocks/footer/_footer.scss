@@ -1,0 +1,104 @@
+// include
+@import '../../utils/utils',
+        '../../settings/settings';
+
+
+.footer
+{
+    background: rgba($alert, 0.8);
+    color: rgba($white, 0.8);
+
+    &__logo
+    {
+        color: rgba($white, 0.8);
+    }
+
+
+
+    &__networks
+    {
+        max-width: 120px;
+        width: 100%;
+        margin: 0 auto 15px;
+
+        &_align_right,
+        &_align_left
+        {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        &_align_right
+        {
+            float: right;
+        }
+
+        &_align_left
+        {
+            float: left;
+        }
+    }
+
+    &__title
+    {
+        margin-top: rem-calc(15px);
+        font-size: rem-calc(17px);
+        line-height: 22px;
+        text-transform: uppercase;
+
+        &:after
+        {
+            content: '';
+            display: block;
+            position: relative;
+            top: 5px;
+            width: 40px;
+            height: 2px;
+            margin-bottom: rem-calc(15px);
+            background-color: $white;
+        }
+    }
+}
+
+.row__footer-top
+{
+    @extend .row__footer-bottom;
+
+    border-bottom: 1px solid rgba($white, 0.8);
+}
+
+.row__footer-bottom
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media print, screen and (min-width: 64em)
+{
+    .footer
+    {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 33rem;
+        box-sizing: border-box;
+        transition: all 0.3s ease-in-out;
+
+        &-space
+        {
+            position: relative;
+            height: 33rem;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        &:hover
+        {
+            padding: 0;
+            border: 1em solid #fff;
+            border-top: 0;
+            //border: 10px solid rgba($white, 0.8)
+        }
+    }
+}

@@ -1,0 +1,29 @@
+// include
+@import '../../utils/utils',
+        '../../settings/settings';
+
+.logo
+{
+    max-width: 240px;
+    width: 100%;
+
+    &__header,
+    &__footer
+    {
+        @include font($bold, 40px, 40px, $font-main);
+        text-transform: capitalize;
+    }
+    &__footer
+
+    {
+        color: $header_logo;
+
+    }
+
+
+    &__description
+    {
+        @include font($light, 14px, 20px, $font_main);
+        color: $gray;
+    }
+}

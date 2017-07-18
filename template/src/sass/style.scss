@@ -1,0 +1,26 @@
+// 1. Fonts
+// --------
+@import '../fonts/font-awesome-4.7.0/scss/font-awesome';
+
+// 2. Foundation
+// -------------
+@import '../css/foundation/foundation',
+        '../../node_modules/motion-ui/dist/motion-ui';
+
+// 3. Settings and utils
+// ---------------------
+@import 'mixin',
+        'settings/settings',
+        'utils/utils';
+
+// 4. Sprite
+// ---------
+@import 'sprite/sprite';
+
+// 5. Block of site
+// ----------------
+@import 'blocks/blocks';
+
+// 6. Reset
+// --------
+@import 'reset/reset';

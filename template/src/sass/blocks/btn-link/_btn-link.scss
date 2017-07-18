@@ -1,0 +1,45 @@
+// include
+//--------
+@import '../../utils/utils',
+        '../../settings/settings';
+
+
+.btn-link
+{
+    display: inline-block;
+    color: rgba($black, 0.5);
+    border-radius: 0;
+    position: relative;
+    padding-right: 24px;
+
+    &:after
+    {
+        content: attr(data-title);
+        width: 0;
+    }
+
+    &:hover
+    {
+        color: $decorative;
+        text-decoration: none;
+        background-color: transparent;
+    }
+
+    &:hover > span
+    {
+        width: 100%;
+        color: rgba($black, 0.8);
+    }
+}
+
+.btn-link > span
+{
+    position: absolute;
+    padding-right: 24px;
+    width: 0;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    white-space: nowrap;
+}

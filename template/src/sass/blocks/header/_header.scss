@@ -1,0 +1,34 @@
+// include
+@import '../../utils/utils',
+        '../../settings/settings';
+
+.header
+{
+    position: relative;
+    z-index: 10;
+    border-bottom: 1px solid $gray;
+    background: $white;
+
+    &__logo
+    {
+        float: right;
+    }
+
+    &__service-menu
+    {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+.sidebar__header
+{
+    margin-bottom: 30px;
+    padding: 10px;
+    @include font($regular, 18px, 22px, $font_main);
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: rem-calc(1px);
+    color: rgba($black, 0.6);
+    background: rgba($black, 0.05);
+}

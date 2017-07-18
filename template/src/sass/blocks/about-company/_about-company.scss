@@ -1,0 +1,30 @@
+// include
+@import '../../utils/utils',
+        '../../settings/settings';
+
+.about-company__inner
+{
+    margin: 10px 0;
+}
+
+.company-feature
+{
+    margin-right: 10px;
+    font-size: rem-calc(25px);
+    line-height: rem-calc(35px);
+    font-weight: $regular;
+
+    .fa
+    {
+        float: right;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        margin-right: 5px;
+        border-radius: 50%;
+        line-height: rem-calc(40px);
+        font-size: rem-calc(20px);
+        text-align: center;
+        color: $white;
+    }
+}

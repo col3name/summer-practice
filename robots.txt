@@ -1,0 +1,8 @@
+User-agent: *
+Host: www.example.com
+Disallow: /.idea
+Disallow: /admin/
+Disallow: /component/
+Disallow: /models/
+Disallow: /template
+Sitemap: http://www.example.com/sitemap.xml

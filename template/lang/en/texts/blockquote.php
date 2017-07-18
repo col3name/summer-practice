@@ -1,0 +1,1 @@
+"Andrew K. Dellos hooked me up with one phrase that I often repeat. He said, "In the "Claude Monet" will walk our grandchildren".
